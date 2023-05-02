@@ -1,0 +1,70 @@
+{{ define "main" -}}
+
+{{ .Content }}
+
+{{ range where .Pages "Section" "!=" "updates" }}
+   {{ .Title }}
+{{ end }}
+<hr/>
+
+{{ range .Site.Sections }}
+  <a href="{{ .Permalink }}">{{ .Title | singularize }}</a>
+{{ end }}
+
+<hr/>
+
+{{ range .Site.Taxonomies.tags }}
+<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }}) / 
+{{ end }}
+
+<hr/>
+
+{{$p := .Pages}}
+{{$p = .Site.Pages }}
+
+    <div>
+	{{range $p }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{- end }}
+    </div>
+
+{{/*
+{{$p := .Pages}}
+{{$p = where site.RegularPages "Type" "updates"}}
+
+    <div>
+        <p><b>recent:</b></p>
+	{{range $p }}
+        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    {{- end }}
+    </div>
+*/}}
+
+
+
+<section>
+    <ul id="all-taxonomies">
+        {{ range $taxonomy_term, $taxonomy := .Site.Taxonomies }}
+            {{ with $.Site.GetPage (printf "/%s" $taxonomy_term) }}
+                <li><a href="{{ .Permalink }}">{{ $taxonomy_term }}</a>
+                    <ul>
+                        {{ range $key, $value := $taxonomy }}
+                            <li>{{ $key }}</li>
+                            <ul>
+                                {{ range $value.Pages }}
+                                    <li hugo-nav="{{ .RelPermalink}}">
+                                        <a href="{{ .Permalink}}">{{ .LinkTitle }}</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        {{ end }}
+                    </ul>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</section>
+
+
+
+{{- end }}

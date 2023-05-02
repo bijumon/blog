@@ -1,0 +1,84 @@
+body {
+    font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+code,
+pre {
+    font-family: "Fira Code", "Fira Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+code {
+    font-size: 100%;
+}
+
+.masthead {
+    margin-bottom: 8px;
+    padding: 4px 0;
+
+    .masthead-title {
+        font-size: 2.4em;
+        font-weight: 900;
+        text-decoration: underline;
+
+        small {
+            display: block;
+            font-size: 40%;
+            font-weight: 300;
+        }
+    }
+    
+}
+
+.post-title {
+    text-transform: capitalize;
+}
+
+.pages ul {
+    margin: 0;
+    padding: 0;
+}
+
+.pages ul li {
+    display: inline;
+}
+
+.pages li:after {
+    color: grey;
+    content: "-";
+    padding: 0 4px 0 8px;
+}
+
+.pages li:last-child::after {
+    content: none;
+    padding:0;
+}
+
+.frontpage, .blog-post {
+    .post-title {
+        
+        h1, small { display: inline-block; }
+        
+        small {
+            color: var(--border-color);
+        }
+        
+        a { 
+            color: var(--link-color); 
+        }
+    }
+}
+
+.nav {
+    ul {
+        padding-left: 0;
+        li {
+            display: inline;
+            padding-right: 8px;
+        }
+        li ::before {
+            content: "\25B8";
+            color: #888;
+            padding-right: 8px;
+        }
+    }
+}
