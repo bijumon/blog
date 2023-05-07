@@ -1,7 +1,8 @@
----
-date: "2020-09-23T00:00:00Z"
-title: Vim setup
----
++++
+title = "Vim setup"
+date = "2020-09-23T14:22:47+05:30"
++++
+
 [Interactive Vim tutorial](https://www.openvim.com/) by Henrik Huttunen. Source code is available at [github - egaga/openvim](https://github.com/egaga/openvim)
 
 [tpope/vim-sensible](https://github.com/tpope/vim-sensible) - one

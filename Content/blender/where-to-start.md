@@ -1,8 +1,8 @@
----
-title: blender where to start?
-date: "2022-05-08"
-tags: [3D,design,learn]
----
++++
+title = "blender where to start?"
+date = "2022-05-08T11:43:20+05:30"
+tags = ["design"]
++++
 
 1. [Fundamentals v2.8 from Blender Foundation- YouTube](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 1. [Blender 3 basics: Intro to Blender - Learn Blender | Online 3D tutorials with CG Cookie](http://cgcookie.com/courses/blender-3-basics-intro-to-blender)

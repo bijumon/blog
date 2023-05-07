@@ -1,9 +1,9 @@
----
-date: "2020-09-22"
-title: "yay AUR helper"
----
++++
+title = "yay AUR helper"
+date = "2020-09-22T08:05:06+05:30"
++++
 
-[Yay]() is a command-line tool to install and manage software from the [Arch User Repository](). It is included in the [_community_](https://discover.manjaro.org/packages/yay) repository of manjaro Linux.
+[Yay](https://github.com/Jguer/yay) is a command-line tool to install and manage software from the [Arch User Repository](https://aur.archlinux.org/packages/yay). It is included in the [_community_](https://discover.manjaro.org/packages/yay) repository of Manjaro Linux.
 
 ``` shell
 > pacman -Ss yay

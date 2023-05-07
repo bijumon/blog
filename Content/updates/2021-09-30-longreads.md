@@ -1,7 +1,8 @@
----
-title: "Longreads"
-date: 2021-09-30
----
++++
+title = "Longreads"
+date = "2021-09-30T11:17:14+05:30"
++++
+
 [The Truth, by Stanisław Lem | The MIT Press Reader](https://thereader.mitpress.mit.edu/the-truth-by-stanislaw-lem/) by Stanisław Lem, translated by Antonia Lloyd-Jones
 
 Lem's 1964 story, published in English for the first time, tells the tale of a scientist in an insane asylum theorizing that the sun is alive.

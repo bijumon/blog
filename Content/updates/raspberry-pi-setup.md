@@ -1,7 +1,7 @@
----
-date: "2020-06-10T00:00:00Z"
-title: notes - raspberry pi
----
++++
+title = "Setting up raspberry pi"
+date = "2020-06-10T11:17:14+05:30"
++++
 
 1. On raspberry pi, improve chromium perfomance by increasing swap size
 

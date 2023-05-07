@@ -1,7 +1,7 @@
----
-title: "Wine Proton Custom"
-date: 2022-02-17
----
++++
+title = "Wine Proton Custom"
+date = "2022-02-17T15:25:00+05:30"
++++
 
 [Disco Elysium](https://en.wikipedia.org/wiki/Disco_Elysium) has stopped working. The game freezes on loading. A solution is to install a custom build of proton, [GloriousEggroll/proton-ge-custom](https://github.com/GloriousEggroll/proton-ge-custom). It has FFmpeg enabled for FAudio, patches from wine-staging and Vulkan for Direct3D (VKD3D). 
 
