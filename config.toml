@@ -15,6 +15,9 @@ DefaultContentLanguage = "en"
 [permalinks]
   updates = '/:year/:month/:title/'
 
+[markup.highlight]
+    noClasses = false 
+
 [outputs]
     page = ["HTML"]
     home = ["HTML", "RSS"]
