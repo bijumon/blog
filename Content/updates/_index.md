@@ -1,4 +1,0 @@
----
-title: "updates"
-layout: "blog"
----
