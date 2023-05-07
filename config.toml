@@ -1,16 +1,16 @@
 baseURL = "https://bijumon.github.io"
-languageCode = "en-us"
 title = "Updates"
 contentDir = "Content"
-paginate = 5
+paginate = 29
 pluralizelisttitles = false
+
+copyright = "Copyright © 2000–2023 bijumon"
+languageCode = "en-gb"
+DefaultContentLanguage = "en"
 
 [author]
   name = 'bijumon'
   email = 'bj@you.got.mail'
-
-[params]
-  tagline = ""
 
 [permalinks]
   updates = '/:year/:month/:title/'
