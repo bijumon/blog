@@ -1,0 +1,25 @@
+{{define "main"}}
+
+<!--$paginator-->
+{{$p := .Pages}}
+{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
+{{$paginator := .Paginate $p}}
+
+<!--list-->
+<div>
+{{range $paginator.Pages}}
+	<p><a href="{{.RelPermalink}}">{{.Date.Format "2006-01-02 15:04 PM"}}</a></p>
+	{{ .Content }}
+	<hr />
+{{end}}
+</div>
+
+<!--pagination-->
+{{template "_internal/pagination.html" .}}
+
+<div class="tags">
+{{ range .Site.Taxonomies.tags }}
+<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+{{ end }}
+</div>
+{{end}}

@@ -7,14 +7,10 @@
     </title>
 
     {{- partial "fonts.html" . -}}
-  
-    {{ $options := (dict "enableSourceMap" true) }}
-    {{ $styles := resources.Get "sass/styles.scss" | resources.ToCSS $options }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
-    {{ $local_styles := resources.Get "sass/local_styles.scss" | resources.ToCSS $options }}
-    <link rel="stylesheet" href="{{ $local_styles.Permalink }}">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-precomposed.png">
+
+    <link rel="stylesheet" type="text/css" href="/css/sp.css">
+    <link rel="stylesheet" type="text/css" href="/css/highlight.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="shortcut icon" href="/images/favicon.ico">
-    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Updates blog">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="{{ .Site.Title }}">
   </head>
-  

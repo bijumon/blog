@@ -1,8 +1,3 @@
-<hr />
-<footer class="footer">
-    <small><b>last updated:</b> {{ now.Format "Monday, January 2, 2006" }}</small>
-    <br />
-    <small>
-      &copy; 2000 - <time datetime="{{ .Site.LastChange }}">{{ .Site.LastChange | time.Format "2006" }}</time> {{ .Site.Author.name }}
-    </small>
-</footer>
+<div class="footer">
+    {{with .Site.Copyright}}{{.}} {{end}}
+</div>
