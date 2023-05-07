@@ -1,1 +1,1 @@
-[Updates.vfxwatch](https://updates.vfxwatch.com) in hugo and hosted on netlify
+homepage@github https://bijumon.github.io
