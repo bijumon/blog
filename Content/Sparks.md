@@ -1,7 +1,11 @@
 +++
-title = "Sparks - May 07, 2023 "
+title = "Sparks"
 date = "2023-05-07T12:16:17+05:30"
 +++
+
+Vocabulary trainer game in python? tui? flask? use data from [Wiktionary:Extended Basic English alphabetical wordlist](https://simple.m.wiktionary.org/wiki/Wiktionary:Extended_Basic_English_alphabetical_wordlist)
+
+#godot4 clone [Platformer Toolkit](https://gmtk.itch.io/platformer-toolkit) as an exercise
 
 Cowboy shoots at aliens in pygame 2D
 
