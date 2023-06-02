@@ -36,3 +36,7 @@ reviews and comments on the course
 [Minimal NES](https://www.flickr.com/photos/soundofdesign/sets/72157630453608084/with/7517673428/)
 
 Godot engine got updated to v4. make a few tiny games? digdug, space invaders, moon buggy etc. use the 'Minimal NES' designs for inspiration
+
+Working through Knuth's AoCP
+
+Knuth, AoCP and [MIX](https://www.gnu.org/software/mdk/manual/html_node/MIX-architecture.html)
