@@ -1,10 +1,7 @@
 ---
-draft: true
 title: "pgen static site generator"
 date: "2014-12-30T00:00:00Z"
-tags:
-- python
-- projects
+draft: true
 ---
 
 **_pgen_** converts a folder of template (jinja2) and markdown files to
