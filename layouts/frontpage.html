@@ -5,6 +5,9 @@
 {{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
 {{$paginator := .Paginate $p}}
 
+{{ .Content }}
+<hr/>
+
 <!--list-->
 <div>
 {{range $paginator.Pages}}
