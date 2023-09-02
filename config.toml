@@ -1,4 +1,5 @@
-baseURL = "https://bijumon.github.io"
+baseURL = "https://bijumon.github.io/blog"
+canonifyURLs = true
 title = "Updates"
 contentDir = "Content"
 paginate = 29
